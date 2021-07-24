@@ -1,0 +1,26 @@
+{
+  "name": "vuejs3-vite",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "node .",
+    "serve": "vite preview",
+    "build": "vite build",
+    "dev": "vite"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "serve-static": "^1.14.1",
+    "vue": "^3.0.5"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.2.5",
+    "@vue/compiler-sfc": "^3.0.5",
+    "autoprefixer": "^10.3.1",
+    "eslint": "^7.31.0",
+    "eslint-plugin-vue": "^7.14.0",
+    "postcss": "^8.3.6",
+    "sass": "^1.36.0",
+    "tailwindcss": "^2.2.7",
+    "vite": "^2.4.3"
+  }
+}
