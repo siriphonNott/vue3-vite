@@ -9,8 +9,13 @@
   },
   "dependencies": {
     "express": "^4.17.1",
+    "feather-icons": "^4.28.0",
+    "mosha-vue-toastify": "^1.0.17",
     "serve-static": "^1.14.1",
-    "vue": "^3.0.5"
+    "vue": "^3.0.5",
+    "vue-feather": "^2.0.0-rc",
+    "vue-router": "^4.0.10",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.2.5",

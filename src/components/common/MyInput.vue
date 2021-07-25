@@ -1,23 +1,31 @@
 <template>
   <input 
-    type="text" 
+    :type="type" 
     :placeholder="placeholder"
-    :value="value"
-    @input="$emit('input', $event.target.value)"
-    class="rounded-md py-3 px-3 text-gray-600 w-full sm:mt-0 mt-2"
+    :value="modelValue"
+    :modelValue="modelValue"
+    @input="$emit('update:modelValue', $event.target.value)"
+    autocomplete="off"
+    class="rounded-md p-3 text-gray-600 w-full sm:mt-0 mt-2"
   />
 </template>
 
 <script>
 export default {
   props: {
-    value: {
+    modelValue: {
       required: true,
+      default: '',
       type: String,
     },
     title: {
       type: String,
-      required: true
+      required: false
+    },
+    type: {
+      type: String,
+      default: 'text',
+      required: false
     },
     placeholder: {
       type: String,
@@ -26,9 +34,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss">
-*:focus{
-  outline: none;
-}
-</style>

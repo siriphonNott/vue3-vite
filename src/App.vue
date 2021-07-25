@@ -1,35 +1,18 @@
 <template>
   <Header />
-  <main class="p-10">
-    <Profile />
-    <ContactMe />
+  <main class="p-10 mb-10">
+    <router-view />
   </main>
   <Footer />
 </template>
 
 <script>
-import Header from './layouts/Header.vue'
-import Footer from './layouts/Footer.vue'
-import ContactMe from './components/ContactMe.vue'
-import Profile from './components/Profile.vue'
-import { onMounted, onUnmounted, onUpdated } from '@vue/runtime-core'
+import Header from '@/layouts/Header.vue'
+import Footer from '@/layouts/Footer.vue'
 export default {
-  setup() {
-    onMounted(() => {
-      console.log('onMounted');
-    })
-    onUnmounted(() => {
-      console.log('onUnmounted');
-    })
-    onUpdated(() => {
-      console.log('onUpdated');
-    })
-  },
   components: {
     Header,
     Footer,
-    Profile,
-    ContactMe
   }
 }
 
