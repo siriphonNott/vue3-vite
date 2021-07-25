@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <main class="p-10 mb-10">
+  <main class="sm:p-10 p-0 mb-10">
     <router-view />
   </main>
   <Footer />
