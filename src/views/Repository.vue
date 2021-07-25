@@ -13,6 +13,9 @@
           </div>
         </a>
       </div>
+      <div v-if="repositories.length < 1" class="flex justify-center items-center my-10">
+        <span class="material-icons mr-1 text-2xl" >hourglass_top</span> Loading...
+      </div>
     </div>
   </div>
 </template>
