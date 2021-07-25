@@ -8,6 +8,7 @@
     "dev": "vite"
   },
   "dependencies": {
+    "axios": "^0.21.1",
     "express": "^4.17.1",
     "feather-icons": "^4.28.0",
     "mosha-vue-toastify": "^1.0.17",

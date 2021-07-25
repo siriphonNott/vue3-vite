@@ -13,6 +13,11 @@ const routes = [
     path: '/contact',
     name: 'Contact',
     component: Contact
+  },
+  {
+    path: '/repository',
+    name: 'Repository',
+    component: () => import('@/views/Repository.vue'),
   }
 ]
 
