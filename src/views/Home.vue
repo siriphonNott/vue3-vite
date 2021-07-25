@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:w-6/12 w-full shadow-lg p-8 bg-gray-200 hover:bg-gray-200 text-center mx-auto" >    
+  <div class="base-container w-full sm:shadow-lg p-8 bg-gray-200 hover:bg-gray-200 text-center mx-auto" >    
     <Infomation /> 
     <Social />
     <div class="sm:flex justify-center mt-10">

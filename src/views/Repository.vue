@@ -1,5 +1,5 @@
 <template>
-  <div class="lg:w-6/12 w-full shadow-lg p-5 bg-gray-200 hover:bg-gray-200 text-center mx-auto" >
+  <div class="base-container w-full sm:shadow-lg p-5 bg-gray-200 hover:bg-gray-200 text-center mx-auto" >
     <BackIcon @onBack="$router.push('/')"/>
     <h1 class="text-gray-600 text-lg mb-1 text-left uppercase font-semibold">Github Repositories</h1>
     <div class="repository-items mt-5">
